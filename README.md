@@ -13,6 +13,11 @@ For now the board and its moves are represented as an 'ASCII art' image.
 
 ## Usage
 
+chess_gif.py is the python file to use for creating the gif.
+
+text_to_img.py is a intermediate script to create image representation
+of a text file.
+
 `$ python chess_gif.py -d DURATION -i INPUT -o OUTPUT`
 
 - DURATION is the time given to each frame in the output gif.
