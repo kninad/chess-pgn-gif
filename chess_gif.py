@@ -74,8 +74,8 @@ if __name__ == '__main__':
     args = vars(ap.parse_args())
     
     pgn_file = args["input"]
-    gif_name = args["output"]
-    durn = args["duration"] # time for each frame in gif
+    gif_file = args["output"]
+    dr_frame = args["duration"] # time for each frame in gif
 
     print("Creating temp text files \n")
     create_txt_files(pgn_file)
@@ -84,5 +84,5 @@ if __name__ == '__main__':
     create_img_files()
     
     print("Creating gif file \n")
-    create_gif(gif_name, durn)
+    create_gif(gif_name, dr_frame)
     
