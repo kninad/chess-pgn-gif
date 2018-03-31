@@ -4,9 +4,16 @@ A simple series of python scripts that convert a chess game given in PGN format 
 
 For now the board and its moves is represented as 'ASCII art'. 
 
+
 ## Dependencies 
 
-## Installation and Useage
+- Tested for Python 3.6
+- Libraries: python-chess, imageio, PIL/pillow
+
+
+## Useage
+
+
 
 ## Future work 
 
