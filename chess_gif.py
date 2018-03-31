@@ -84,5 +84,5 @@ if __name__ == '__main__':
     create_img_files()
     
     print("Creating gif file \n")
-    create_gif(gif_name, dr_frame)
+    create_gif(gif_file, dr_frame)
     
