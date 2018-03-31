@@ -4,6 +4,8 @@ Credits: user 'KobeJohn' on StackOverflow
 Link to post/comment: https://stackoverflow.com/q/29760402/9579260
 '''
 
+# Requires python PIL or Pillow library
+
 import PIL
 import PIL.Image
 import PIL.ImageFont
