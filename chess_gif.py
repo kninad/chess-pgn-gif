@@ -60,8 +60,7 @@ def create_gif(gif_name, gif_durn):
 #
 
 
-if __name__ == '__main__':
-    
+def main():
     ap = argparse.ArgumentParser(description = 'Input arguments')
     
     ap.add_argument("-d", "--duration", required=True,
@@ -85,4 +84,7 @@ if __name__ == '__main__':
     
     print("Creating gif file \n")
     create_gif(gif_file, dr_frame)
-    
+
+
+if __name__ == '__main__':
+    main()
