@@ -1,10 +1,8 @@
 '''
 Python script to read a text file and create its image
-Credits: user 'KobeJohn' on StackOverflow
+Credits: `KobeJohn` on StackOverflow
 Link to post/comment: https://stackoverflow.com/q/29760402/9579260
 '''
-
-# Requires python PIL or Pillow library
 
 import PIL
 import PIL.Image
@@ -16,12 +14,14 @@ PIXEL_ON = 0  # PIL color to use for "on"
 PIXEL_OFF = 255  # PIL color to use for "off"
 
 
-def text_image(text_path, font_path=None):
+def text_image(text_path: str, font_path=None) -> PIL.Image:
     """Convert text file to a grayscale image with black characters on a white background.
 
-    arguments:
-    text_path - the content of this file will be converted to an image
-    font_path - path to a font file (for example impact.ttf)
+    Input:
+        text_path: str content of this file will be converted to an image
+        font_path: str path to a font file (for example impact.ttf)
+    Returns:
+        image: PIL.Image (grayscale) equivalent of the input text file
     """
     grayscale = 'L'
     # parse the file into lines
