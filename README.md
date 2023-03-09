@@ -18,19 +18,17 @@ See the `requirements.txt` to test the code out and `environment.yml` for settin
 dev environment to hack the code.
 
 # Usage
-The board and its moves are represented as an 'ASCII art' image.
 
-`chess_gif.py` is the python file to use for creating the gif.
-
-text_to_img.py is an intermediate script to create image representation
-of a text file.
+`chess_gif.py` is the main python file to use for creating the gif. Use as:
 
 `$ python chess_gif.py -d DURATION -i INPUT -o OUTPUT`
 
-- DURATION is the time given to each frame in the output gif.
-- INPUT is the pgn file of the chess game.
-- OUTPUT is the name of the output gif file.
+- `DURATION`: time given to each frame in the output gif.
+- `INPUT`: path for `.pgn` file for the chess game.
+- `OUTPUT` desired path for output `.gif`.
 
+The board and its moves are represented as an 'ASCII art' image. `text_to_img.py` is an 
+intermediate helper script to create image representation of a text file.
 
 # To Do 
 

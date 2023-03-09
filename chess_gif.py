@@ -8,7 +8,7 @@ import chess.svg
 import chess.pgn
 import imageio
 
-from text_to_img import text_image
+from utils import text_image
 
 TMP_DIR = "./.temp/"
 
